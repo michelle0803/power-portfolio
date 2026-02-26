@@ -16,7 +16,7 @@ All examples use demo data and contain no client-sensitive information.
 
 ## Featured Case Studies
 
-### Request Intake & Approval Platform [Request Intake & Approval Platform](case-studies/request-intake-platform.md)
+### [Request Intake & Approval Platform](case-studies/request-intake-platform.md)
 Enterprise intake system built with Power Apps + Dataverse + Power Automate.
 - Reduced approval cycle time by ~40%
 - Implemented role-based security
