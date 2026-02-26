@@ -35,7 +35,7 @@ Leadership lacked reliable data to assess throughput, bottlenecks, or performanc
 
 ## Architecture
 
-![Architecture Diagram](../architecture/request-intake-architecture.png)
+![Architecture Diagram](../architecture/putnewdocumenthere.png)
 
 ### Technology Stack
 
