@@ -53,7 +53,7 @@ The architecture had to function entirely within these restrictions.
 
 ## Solution Design
 
-### 1️⃣ Data Model (SharePoint)
+### Data Model (SharePoint)
 
 Designed simplified SharePoint schema to mitigate delegation and performance issues:
 
@@ -71,7 +71,7 @@ Special care was taken to address delegation limits when filtering by:
 
 ---
 
-### 2️⃣ Canvas App Engineering & Performance Tuning
+### Canvas App Engineering & Performance Tuning
 
 Performance optimization was critical due to SharePoint delegation limits and GCC High latency.
 
@@ -93,7 +93,7 @@ UI design emphasized:
 
 ---
 
-### 3️⃣ Automated Reminder Workflow
+### Automated Reminder Workflow
 
 Built scheduled reminder automation using standard Power Automate connectors:
 
@@ -110,7 +110,7 @@ This eliminated the need for manual reminder emails.
 
 ---
 
-### 4️⃣ Governance & Deployment Discipline
+### Governance & Deployment Discipline
 
 Operating within GCC High required strict governance alignment:
 
