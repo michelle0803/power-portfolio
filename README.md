@@ -9,13 +9,13 @@ This repository contains **sanitized, portfolio-safe** examples: case studies, a
 
 ## What you’ll find here
 
-- **Case studies** with problem → constraints → architecture → engineering decisions → results
+- **Projects** with problem → constraints → architecture → engineering decisions → results
 - **Architecture diagrams** showing system design and integration boundaries
 - **Reusable patterns** (Power Fx / DAX / flow patterns) that demonstrate engineering approach
 
 ---
 
-## Featured Case Studies
+## Featured Projects
 
 ### 1) Enterprise Request Intake & Approval Platform (Commercial)
 **Power Apps (Canvas) + Dataverse + Power Automate + Power BI**
@@ -43,20 +43,20 @@ Read: [GCC High Action Item Tracking Platform](case-studies/gcc-high-project.md)
 
 ## Architecture Diagrams
 
-Diagrams are stored in the `architecture/` folder:
+Diagrams are stored in the (architecture/) folder:
 
-- Commercial intake platform: `architecture/request-intake-architecture.png`
-- GCC High action item platform: `architecture/gcc-high-action-item-architecture.png`
+- Commercial intake platform: (architecture/request-intake-architecture.md)
+- GCC High action item platform: (architecture/gcc-high-action-item-architecture.md)
 
 ---
 
 ## Reusable Technical Samples
 
-Samples are stored in `samples/`:
+Samples are stored in (samples/):
 
-- Power Fx patterns: `samples/powerfx/`
-- DAX measures: `samples/dax/`
-- Automation patterns: `samples/automation/`
+- Power Fx patterns: (samples/powerfx/)
+- DAX measures: (samples/dax/)
+- Automation patterns: (samples/automation/)
 
 Start here:
 - [Power Fx: Delegation-safe filtering patterns](samples/powerfx/delegation-safe-filter.md)
@@ -65,11 +65,11 @@ Start here:
 
 ## Repo Structure
 
-case-studies/     -> Portfolio-ready case study writeups
-architecture/     -> Diagrams used by case studies
-screenshots/      -> Sanitized screenshots for apps/flows/dashboards
-samples/          -> Reusable patterns (Power Fx, DAX, automation)
-misc/             -> Other technical projects and experiments
+- case-studies/     -> Portfolio-ready case study writeups
+- architecture/     -> Diagrams used by case studies
+- screenshots/      -> Sanitized screenshots for apps/flows/dashboards
+- samples/          -> Reusable patterns (Power Fx, DAX, automation)
+- misc/             -> Other technical projects and experiments
 
 ---
 
