@@ -58,6 +58,7 @@ With(
 ## When to use Dataverse instead
 
 If you need:
+
 - Complex relationships and server-side filtering
 - Large scale querying without delegation pain
 - Row-level security models
