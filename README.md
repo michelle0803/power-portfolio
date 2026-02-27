@@ -1,60 +1,79 @@
 # Michelle Pruitt — Power Platform & Automation Portfolio
 
-Senior Consultant specializing in enterprise Power Platform solutions, automation architecture, and data-driven systems.
+Senior Consultant specializing in enterprise Microsoft Power Platform solutions (Power Apps, Power Automate, Power BI, Dataverse) with experience delivering in both commercial and regulated environments (including GCC High).
 
-## Overview
+This repository contains **sanitized, portfolio-safe** examples: case studies, architecture diagrams, and reusable patterns.  
+**No client data, secrets, tenant identifiers, or proprietary documentation** are included.
 
-This repository showcases sanitized examples of enterprise solutions I have designed and delivered using:
+---
 
-- Power Apps (Canvas & Model-Driven)
-- Power Automate (Cloud & Desktop)
-- Dataverse
-- Power BI
-- SharePoint & API integrations
+## What you’ll find here
 
-All examples use demo data and contain no client-sensitive information.
+- **Case studies** with problem → constraints → architecture → engineering decisions → results
+- **Architecture diagrams** showing system design and integration boundaries
+- **Reusable patterns** (Power Fx / DAX / flow patterns) that demonstrate engineering approach
+
+---
 
 ## Featured Case Studies
 
-### [Request Intake & Approval Platform](case-studies/request-intake-platform.md)
-Enterprise intake system built with Power Apps + Dataverse + Power Automate.
-- Reduced approval cycle time by ~40%
-- Implemented role-based security
-- Delegation-safe data queries
-- Automated notifications & SLA tracking
+### 1) Enterprise Request Intake & Approval Platform (Commercial)
+**Power Apps (Canvas) + Dataverse + Power Automate + Power BI**
 
-→ See full case study: /case-studies/request-intake-platform.md
+Highlights:
+- Structured intake and approval workflow
+- Performance-tuned Canvas app patterns
+- Power BI dashboard for **backlog trend tracking** and **executive reporting**
 
-### Replace with next case study title
-Enterprise intake system built with Power Apps + Dataverse + Power Automate.
-- Reduced approval cycle time by ~40%
-- Implemented role-based security
-- Delegation-safe data queries
-- Automated notifications & SLA tracking
+Read: [Request Intake & Approval Platform](case-studies/request-intake-platform.md)
 
-→ See full case study: /case-studies/request-intake-platform.md
+---
 
-## Architecture Approach
+### 2) GCC High Action Item Tracking Platform (Regulated)
+**Power Apps (Canvas) + SharePoint Lists + Power Automate**
 
-My solution design emphasizes:
+Highlights:
+- Designed under **no-premium licensing** and **limited connector** constraints
+- Performance tuning under **delegation limits** and **high-latency networks**
+- Automated reminders (7/3/1 days) to reduce overdue items and manual follow-up
 
-- Environment separation (Dev / Test / Prod)
-- Managed solutions & ALM discipline
-- Least-privilege security
-- Delegation-safe data patterns
-- Structured error handling in flows
-- Monitoring and logging strategies
+Read: [GCC High Action Item Tracking Platform](case-studies/gcc-high-project.md)
 
-## Code & Pattern Samples
+---
 
-Reusable engineering patterns:
+## Architecture Diagrams
 
-- Power Fx delegation-safe filtering
-- Advanced DAX measures
-- Approval workflow patterns
-- Error handling frameworks
+Diagrams are stored in the `architecture/` folder:
 
-## Connect
+- Commercial intake platform: `architecture/request-intake-architecture.png`
+- GCC High action item platform: `architecture/gcc-high-action-item-architecture.png`
+
+---
+
+## Reusable Technical Samples
+
+Samples are stored in `samples/`:
+
+- Power Fx patterns: `samples/powerfx/`
+- DAX measures: `samples/dax/`
+- Automation patterns: `samples/automation/`
+
+Start here:
+- [Power Fx: Delegation-safe filtering patterns](samples/powerfx/delegation-safe-filter.md)
+
+---
+
+## Repo Structure
+
+case-studies/     -> Portfolio-ready case study writeups
+architecture/     -> Diagrams used by case studies
+screenshots/      -> Sanitized screenshots for apps/flows/dashboards
+samples/          -> Reusable patterns (Power Fx, DAX, automation)
+misc/             -> Other technical projects and experiments
+
+---
+
+## Contact
 
 - LinkedIn: (https://www.linkedin.com/in/s-michelle-pruitt/)
 - Portfolio Website: (https://www.cyphercodeai.com/)
